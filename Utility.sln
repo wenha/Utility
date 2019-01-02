@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Common", "App.Common\Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.WebTest", "App.WebTest\App.WebTest.csproj", "{AC647A8A-15B3-47EA-970B-68C76AA6AEDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Pay", "App.Pay\App.Pay.csproj", "{97617EB9-9E25-4819-8729-E98AF6B3D297}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AC647A8A-15B3-47EA-970B-68C76AA6AEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC647A8A-15B3-47EA-970B-68C76AA6AEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC647A8A-15B3-47EA-970B-68C76AA6AEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97617EB9-9E25-4819-8729-E98AF6B3D297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97617EB9-9E25-4819-8729-E98AF6B3D297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97617EB9-9E25-4819-8729-E98AF6B3D297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97617EB9-9E25-4819-8729-E98AF6B3D297}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
