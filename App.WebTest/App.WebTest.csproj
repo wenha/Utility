@@ -147,8 +147,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValidateController.cs" />
+    <Compile Include="Controllers\WeXcxPayController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -198,6 +200,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Base\" />
+    <Folder Include="Views\WeXcxPay\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -216,6 +220,10 @@
     <ProjectReference Include="..\App.Common\App.Common.csproj">
       <Project>{50777A16-B198-47C9-9510-5B2C50C7B48A}</Project>
       <Name>App.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Pay\App.Pay.csproj">
+      <Project>{97617EB9-9E25-4819-8729-E98AF6B3D297}</Project>
+      <Name>App.Pay</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
