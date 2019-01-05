@@ -9,7 +9,7 @@ using System.Web.Mvc;
 
 namespace App.WebTest.Controllers
 {
-    public class WeAppPayController : Controller
+    public class WeAppPayController : BaseController
     {
         /// <summary>
         /// 微信app支付

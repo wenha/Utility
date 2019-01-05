@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AopSdk">
+      <HintPath>..\..\..\民政局培训\code2\全国\源码\Web\ETL.CivilAffairsEdu.Web\bin\AopSdk.dll</HintPath>
+    </Reference>
     <Reference Include="LitJSON">
       <HintPath>..\..\..\民政局培训\code2\全国\源码\Web\packages\LitJson.0.13.0\lib\net45\LitJSON.dll</HintPath>
     </Reference>
@@ -50,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AliPay\AliPay.cs" />
+    <Compile Include="AliPay\AliPayConfig.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WePay\AppPay\AppPayApi.cs" />
