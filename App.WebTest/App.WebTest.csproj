@@ -150,6 +150,7 @@
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValidateController.cs" />
+    <Compile Include="Controllers\WeAppPayController.cs" />
     <Compile Include="Controllers\WeXcxPayController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -201,6 +202,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Base\" />
+    <Folder Include="Views\WeAppPay\" />
     <Folder Include="Views\WeXcxPay\" />
   </ItemGroup>
   <ItemGroup>
