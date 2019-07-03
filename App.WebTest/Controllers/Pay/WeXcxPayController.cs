@@ -42,7 +42,7 @@ namespace App.WebTest.Controllers
                 //支付回调通知地址
                 var address = WebConfigurationManager.AppSettings["WxXcxNotifyUrl"].ToString();
                 XcxPayData data = new XcxPayData();
-                data.SetValue("body", "民政社工培训-课程购买");
+                data.SetValue("body", "商品购买");
 
                 //可以将用户Id和订单Id同时封装在attach中
                 data.SetValue("attach", String.Join(",", oIds).ToString());
